@@ -13,11 +13,7 @@ class QuestionsController extends Controller
         $this->middleware('auth', ['except' => ['index', 'show']]);
     }
 
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+
     public function index()
     {
         $questions = Question::with('user')->latest()->paginate(5);
@@ -25,11 +21,7 @@ class QuestionsController extends Controller
         return view('questions.index', compact('questions'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+
     public function create()
     {
         $question = new Question();
@@ -37,12 +29,7 @@ class QuestionsController extends Controller
         return view('questions.create', compact('question'));
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
+
     public function store(AskQuestionRequest $request)
     {
         $request->user()->questions()->create($request->only('title', 'body'));
@@ -50,12 +37,7 @@ class QuestionsController extends Controller
         return redirect()->route('questions.index')->with('success', "Your question has been submitted");
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+
     public function show(Question $question)
     {
         $question->increment('views');
@@ -63,12 +45,7 @@ class QuestionsController extends Controller
         return view('questions.show', compact('question'));
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+
     public function edit(Question $question)
     {
         $this->authorize("update", $question);
@@ -77,13 +54,6 @@ class QuestionsController extends Controller
 
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function update(AskQuestionRequest $request, Question $question)
     {
 
@@ -94,12 +64,7 @@ class QuestionsController extends Controller
         return redirect('/questions')->with('success', "Your question has been updated.");
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+
     public function destroy(Question $question)
     {
         $this->authorize("delete", $question);
