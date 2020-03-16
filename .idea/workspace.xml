@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="3f7e45a9-d9d5-4e03-b1a4-dc1667401317" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Answer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Answer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/questions/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/questions/show.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,44 +23,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Answer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Answer.php">
+      <file leaf-file-name="fontawesome.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/js/fontawesome.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RouteServiceProvider.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="90">
+              <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
               <folding>
-                <element signature="e#33#50#0#PHP" expanded="true" />
+                <element signature="e#0#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/User.php">
+      <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-              <folding>
-                <element signature="e#23#63#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/questions/show.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
+            <state relative-caret-position="563">
+              <caret line="92" column="1" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -69,6 +51,8 @@
       <find>answers</find>
       <find>answers_count</find>
       <find>answer</find>
+      <find>require</find>
+      <find>inline</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -97,8 +81,6 @@
         <option value="$PROJECT_DIR$/resources/views/questions/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/questions/_form.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/questions/create.blade.php" />
-        <option value="$PROJECT_DIR$/public/css/app.css" />
-        <option value="$PROJECT_DIR$/resources/sass/app.scss" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_03_15_004130_create_answers_table.php" />
@@ -113,7 +95,11 @@
         <option value="$PROJECT_DIR$/app/Answer.php" />
         <option value="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/resources/js/app.js" />
         <option value="$PROJECT_DIR$/resources/views/questions/show.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/app.css" />
+        <option value="$PROJECT_DIR$/resources/sass/app.scss" />
+        <option value="$PROJECT_DIR$/resources/js/fontawesome.js" />
       </list>
     </option>
   </component>
@@ -260,20 +246,62 @@
             <path>
               <item name="question-answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="question-answer" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="question-answer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="question-answer" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@fortawesome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="question-answer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="question-answer" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@fortawesome" type="462c0819:PsiDirectoryNode" />
+              <item name="fontawesome-free" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="question-answer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="question-answer" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@fortawesome" type="462c0819:PsiDirectoryNode" />
+              <item name="fontawesome-free" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="question-answer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="question-answer" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="question-answer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="question-answer" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="question-answer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="question-answer" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="question-answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="question-answer" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="question-answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="question-answer" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="questions" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="question-answer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="question-answer" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -283,13 +311,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="sho&#9;FILE&#9;file:///Users/michelagah/question-answer/resources/views/questions/show.blade.php&#10;use&#9;FILE&#9;file:///Users/michelagah/question-answer/app/User.php&#10;route&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Providers/RouteServiceProvider.php&#10;an&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Answer.php&#10;see&#9;FILE&#9;file:///Users/michelagah/question-answer/database/seeds/DatabaseSeeder.php&#10;fa&#9;FILE&#9;file:///Users/michelagah/question-answer/database/factories/QuestionFactory.php&#10;que&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Question.php&#10;ans&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Answer.php&#10;answe&#9;FILE&#9;file:///Users/michelagah/question-answer/database/factories/AnswerFactory.php&#10;po&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Policies/QuestionPolicy.php&#10;pol&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Policies/QuestionPolicy.php&#10;fac&#9;FILE&#9;file:///Users/michelagah/question-answer/database/factories/QuestionFactory.php&#10;ques&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Http/Controllers/QuestionsController.php&#10;answer&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Answer.php&#10;user&#9;FILE&#9;file:///Users/michelagah/question-answer/app/User.php&#10;us&#9;FILE&#9;file:///Users/michelagah/question-answer/app/User.php&#10;qu&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Http/Controllers/QuestionsController.php&#10;inde&#9;FILE&#9;file:///Users/michelagah/question-answer/resources/views/questions/index.blade.php&#10;auth&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Providers/AuthServiceProvider.php&#10;ind&#9;FILE&#9;file:///Users/michelagah/question-answer/resources/views/questions/index.blade.php&#10;au&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Providers/AuthServiceProvider.php&#10;rout&#9;null&#9;null&#10;quest&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Question.php&#10;question&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Http/Controllers/QuestionsController.php&#10;we&#9;FILE&#9;file:///Users/michelagah/question-answer/routes/web.php&#10;in&#9;FILE&#9;file:///Users/michelagah/question-answer/resources/views/questions/index.blade.php&#10;app&#9;FILE&#9;file:///Users/michelagah/question-answer/resources/sass/app.scss&#10;cre&#9;FILE&#9;file:///Users/michelagah/question-answer/resources/views/questions/create.blade.php&#10;form&#9;FILE&#9;file:///Users/michelagah/question-answer/resources/views/questions/_form.blade.php&#10;ask&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Http/Requests/AskQuestionRequest.php&#10;_va&#9;FILE&#9;file:///Users/michelagah/question-answer/resources/sass/_variables.scss&#10;app.sc&#9;FILE&#9;file:///Users/michelagah/question-answer/resources/sass/app.scss&#10;app.css&#9;FILE&#9;file:///Users/michelagah/question-answer/public/css/app.css&#10;en&#9;FILE&#9;file:///Users/michelagah/question-answer/.env&#10;web&#9;null&#9;null&#10;Que&#9;null&#9;null&#10;data&#9;FILE&#9;file:///Users/michelagah/question-answer/config/database.php" />
+    <property name="SearchEverywhereHistoryKey" value="font&#9;FILE&#9;file:///Users/michelagah/question-answer/resources/js/fontawesome.js&#10;app&#9;FILE&#9;file:///Users/michelagah/question-answer/public/css/app.css&#10;sho&#9;FILE&#9;file:///Users/michelagah/question-answer/resources/views/questions/show.blade.php&#10;fonta&#9;FILE&#9;file:///Users/michelagah/question-answer/node_modules/@fortawesome/fontawesome-free/js/fontawesome.js&#10;use&#9;FILE&#9;file:///Users/michelagah/question-answer/app/User.php&#10;route&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Providers/RouteServiceProvider.php&#10;an&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Answer.php&#10;see&#9;FILE&#9;file:///Users/michelagah/question-answer/database/seeds/DatabaseSeeder.php&#10;fa&#9;FILE&#9;file:///Users/michelagah/question-answer/database/factories/QuestionFactory.php&#10;que&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Question.php&#10;ans&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Answer.php&#10;answe&#9;FILE&#9;file:///Users/michelagah/question-answer/database/factories/AnswerFactory.php&#10;po&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Policies/QuestionPolicy.php&#10;pol&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Policies/QuestionPolicy.php&#10;fac&#9;FILE&#9;file:///Users/michelagah/question-answer/database/factories/QuestionFactory.php&#10;ques&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Http/Controllers/QuestionsController.php&#10;answer&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Answer.php&#10;user&#9;FILE&#9;file:///Users/michelagah/question-answer/app/User.php&#10;us&#9;FILE&#9;file:///Users/michelagah/question-answer/app/User.php&#10;qu&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Http/Controllers/QuestionsController.php&#10;inde&#9;FILE&#9;file:///Users/michelagah/question-answer/resources/views/questions/index.blade.php&#10;auth&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Providers/AuthServiceProvider.php&#10;ind&#9;FILE&#9;file:///Users/michelagah/question-answer/resources/views/questions/index.blade.php&#10;au&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Providers/AuthServiceProvider.php&#10;rout&#9;null&#9;null&#10;quest&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Question.php&#10;question&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Http/Controllers/QuestionsController.php&#10;we&#9;FILE&#9;file:///Users/michelagah/question-answer/routes/web.php&#10;in&#9;FILE&#9;file:///Users/michelagah/question-answer/resources/views/questions/index.blade.php&#10;cre&#9;FILE&#9;file:///Users/michelagah/question-answer/resources/views/questions/create.blade.php&#10;form&#9;FILE&#9;file:///Users/michelagah/question-answer/resources/views/questions/_form.blade.php&#10;ask&#9;FILE&#9;file:///Users/michelagah/question-answer/app/Http/Requests/AskQuestionRequest.php&#10;_va&#9;FILE&#9;file:///Users/michelagah/question-answer/resources/sass/_variables.scss&#10;app.sc&#9;FILE&#9;file:///Users/michelagah/question-answer/resources/sass/app.scss&#10;app.css&#9;FILE&#9;file:///Users/michelagah/question-answer/public/css/app.css&#10;en&#9;FILE&#9;file:///Users/michelagah/question-answer/.env&#10;web&#9;null&#9;null&#10;Que&#9;null&#9;null&#10;data&#9;FILE&#9;file:///Users/michelagah/question-answer/config/database.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/js" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -326,7 +359,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25119000" />
+    <option name="totallyTimeSpent" value="31380000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -339,7 +372,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="737" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3296875" />
       <window_info anchor="bottom" id="Messages" />
@@ -415,44 +447,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'lesson-11'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/AskQuestionRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/_messages.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/questions/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/questions/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/questions/_form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -611,20 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10926" column="1" selection-start-line="10926" selection-start-column="1" selection-end-line="10926" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -762,10 +742,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@fortawesome/fontawesome-free/js/fontawesome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36431">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/questions/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
+        <state relative-caret-position="151">
+          <caret line="70" column="61" selection-start-line="70" selection-start-column="61" selection-end-line="70" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="92" column="1" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3315">
+          <caret line="10967" selection-start-line="10967" selection-end-line="10967" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/fontawesome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
