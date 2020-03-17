@@ -9,13 +9,11 @@
                         <div class="d-flex align-items-center">
                             <h2>All Questions</h2>
                             <div class="ml-auto">
-                                <a href="{{ route('questions.create') }}" class="btn btn-outline-secondary">Ask
-                                    Question</a>
+                                <a href="{{ route('questions.create') }}" class="btn btn-outline-secondary">Ask Question</a>
                             </div>
                         </div>
 
                     </div>
-
 
                     <div class="card-body">
                         @include ('layouts._messages')
@@ -24,7 +22,7 @@
                             <div class="media">
                                 <div class="d-flex flex-column counters">
                                     <div class="vote">
-                                        <strong>{{ $question->votes }}</strong> {{ str_plural('vote', $question->votes) }}
+                                        <strong>{{ $question->votes_count }}</strong> {{ str_plural('vote', $question->votes_count) }}
                                     </div>
                                     <div class="status {{ $question->status }}">
                                         <strong>{{ $question->answers_count }}</strong> {{ str_plural('answer', $question->answers_count) }}
@@ -48,7 +46,8 @@
                                                 </form>
                                             @endcan
                                         </div>
-                                    </div>                                    <p class="lead">
+                                    </div>
+                                    <p class="lead">
                                         Asked by
                                         <a href="{{ $question->user->url }}">{{ $question->user->name }}</a>
                                         <small class="text-muted">{{ $question->created_date }}</small>
